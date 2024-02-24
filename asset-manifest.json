@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pokemon/static/css/main.78d6c68a.css",
+    "main.js": "/pokemon/static/js/main.bf6bd5c9.js",
+    "static/media/pokeball.png": "/pokemon/static/media/pokeball.4dc4123130fdcbbcdbe8.png",
+    "static/media/pikachu.png": "/pokemon/static/media/pikachu.f94c0a32974a383813e9.png",
+    "index.html": "/pokemon/index.html",
+    "static/media/search.svg": "/pokemon/static/media/search.f9705ffe407455bd10ed.svg",
+    "main.78d6c68a.css.map": "/pokemon/static/css/main.78d6c68a.css.map",
+    "main.bf6bd5c9.js.map": "/pokemon/static/js/main.bf6bd5c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78d6c68a.css",
+    "static/js/main.bf6bd5c9.js"
+  ]
+}
