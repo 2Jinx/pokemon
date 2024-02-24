@@ -1,11 +1,12 @@
 import './Pokemons.css';
 import React, { useState, useEffect } from 'react';
+import {Link, useParams } from "react-router-dom";
 import pokeball from './pokeball.png'
 import pikachu from './pikachu.png'
 
 const Card = ({ url }) => {
   const [pokeData, setPokeData] = useState(null);
-  
+
   useEffect(() => {
     fetch(url)
       .then(response => response.json())
@@ -29,14 +30,16 @@ const Card = ({ url }) => {
   }
 
   return (
-    <div className='card'>
-      <div className='card-name-container'>
-        <span className='card-name'>{pokeData.name.charAt(0).toUpperCase() + pokeData.name.slice(1)}</span>
-        <span>#{id}</span>
+    <Link to={`/details/${pokeData.name}`} style={{ textDecoration: 'none' }}>
+      <div className='card'>
+        <div className='card-name-container'>
+          <span className='card-name'>{pokeData.name.charAt(0).toUpperCase() + pokeData.name.slice(1)}</span>
+          <span>#{id}</span>
+        </div>
+        <img alt={pokeData.name} src={pokeData.sprites.other.home.front_default} />
+        <TypeLabel types={pokeData.types} />
       </div>
-      <img alt={pokeData.name} src={pokeData.sprites.other.home.front_default} />
-      <TypeLabel types={pokeData.types} />
-    </div>
+    </Link>
   );
 }
 
