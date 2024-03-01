@@ -1,5 +1,12 @@
+import '../sources/details.css';
 import React, { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
+import Header from './components/Header.jsx';
+import GeneralStats from './components/GeneralStats.jsx';
+import Breeding from './components/Breeding.jsx';
+import Moves from './components/Moves.jsx';
+import Abilities from './components/Abilities.jsx';
+import loading from '../sources/loading.gif';
 
 const PokemonDetailsPage = () => {
     const [pokeData, setPokeData] = useState(null);
@@ -14,16 +21,28 @@ const PokemonDetailsPage = () => {
         .catch((error) => {
           console.log('There was an ERROR: ', error);
         });
-    }, []);
+    }, [name]);
 
-    return(
+    if(!pokeData){
+      return (
+        <div className='loading'>
+          <img alt='loading' src={loading} />
+        </div>
+      );
+    }
+    else{
+      return(
         <>
-        <h1>Details</h1>
-        <h3>{pokeData?.id}</h3>
-        <h3>{pokeData?.name}</h3>
+          <Header />
+          <div className='stats'>
+            <GeneralStats data={pokeData}/>
+            <Breeding data={pokeData}/>
+            <Moves data={pokeData}/>
+            <Abilities abilities={pokeData.abilities}/>
+          </div>
         </>
-    );  
-    
+      ); 
+    }
     
   }
 

@@ -6,6 +6,10 @@
   place-self: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .error-message {
   margin-top: 250px;
   display: flex;
@@ -38,7 +42,6 @@
   max-width: 300px;
   max-height: 300px;
   margin: 10px;
-  background-color: #f8f9fa;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -137,7 +140,7 @@ p {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url('search.svg');
+  background-image: url('/public/search.svg');
   background-size: contain;
 }
 
@@ -368,7 +371,7 @@ p {
 
 /* Телефоны с экраном 320px */
 
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .error-message {
     margin-top: 110px;
     display: flex;
@@ -379,7 +382,7 @@ p {
   
   .error-message p, .error-message span, .error-message img {
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
     color: #000000;
     margin-bottom: 20px; 
   }
@@ -450,7 +453,7 @@ p {
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    background-image: url('search.svg');
+    background-image: url('/public/search.svg');
     background-size: contain;
   }
 
@@ -481,7 +484,7 @@ p {
 
 /* Телефоны с экраном 480px и выше */
 
-@media screen and (min-width: 480px) and (max-width: 765px){
+@media screen and (min-width: 480px) and (max-width: 768px){
   .card {
     min-width: 200px;
     min-height: 200px;
@@ -538,7 +541,7 @@ p {
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    background-image: url('search.svg');
+    background-image: url('/public/search.svg');
     background-size: contain;
   }
 
@@ -569,7 +572,7 @@ p {
 
 /* Планшеты с экраном 768px и выше */
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
   .card {
     min-width: 100px;
     min-height: 100px;
@@ -636,7 +639,7 @@ p {
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    background-image: url('search.svg');
+    background-image: url('/public/search.svg');
     background-size: contain;
   }
 
@@ -720,7 +723,7 @@ p {
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    background-image: url('search.svg');
+    background-image: url('/public/search.svg');
     background-size: contain;
   }
 
@@ -801,7 +804,7 @@ p {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-image: url('search.svg');
+    background-image: url('/public/search.svg');
     background-size: contain;
   }
 }
@@ -858,7 +861,7 @@ p {
     transform: translateY(-50%);
     width: 40px;
     height: 40px;
-    background-image: url('search.svg');
+    background-image: url('/public/search.svg');
     background-size: contain;
   }
 }
