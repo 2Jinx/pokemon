@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.50713147.css",
-    "main.js": "/static/js/main.d730bb0d.js",
-    "static/media/pokeball.png": "/static/media/pokeball.4dc4123130fdcbbcdbe8.png",
-    "static/media/pikachu.png": "/static/media/pikachu.f94c0a32974a383813e9.png",
-    "static/media/loading.gif": "/static/media/loading.08f263c813108449b5ed.gif",
-    "static/media/poison@2x.png": "/static/media/poison@2x.af7ea9bb7f9173de6593.png",
-    "static/media/ghost@2x.png": "/static/media/ghost@2x.e4c9450702d7baf07f23.png",
-    "static/media/dark@2x.png": "/static/media/dark@2x.2adab1193b3939e2babf.png",
-    "static/media/psychic@2x.png": "/static/media/psychic@2x.64a6e051f18409139c45.png",
-    "static/media/rock@2x.png": "/static/media/rock@2x.b9c8ca3d0a900ef9d23f.png",
-    "static/media/normal@2x.png": "/static/media/normal@2x.6984577062ba0c5d386a.png",
-    "static/media/bug@2x.png": "/static/media/bug@2x.baeb5551918981eb08ca.png",
-    "static/media/steel@2x.png": "/static/media/steel@2x.2242e35e121bfa6873a7.png",
-    "static/media/dragon@2x.png": "/static/media/dragon@2x.b9f3323c34104009d870.png",
-    "static/media/flying@2x.png": "/static/media/flying@2x.2489c8d509eddc338b4a.png",
-    "index.html": "/index.html",
-    "static/media/search.svg": "/static/media/search.f9705ffe407455bd10ed.svg",
-    "static/media/arrow-left.svg": "/static/media/arrow-left.c73c159158c7a5b96b4d8070676b14c2.svg",
-    "main.50713147.css.map": "/static/css/main.50713147.css.map",
-    "main.d730bb0d.js.map": "/static/js/main.d730bb0d.js.map"
+    "main.css": "/pokemon/static/css/main.bd3d22a2.css",
+    "main.js": "/pokemon/static/js/main.32a49df2.js",
+    "static/media/pokeball.png": "/pokemon/static/media/pokeball.4dc4123130fdcbbcdbe8.png",
+    "static/media/pikachu.png": "/pokemon/static/media/pikachu.f94c0a32974a383813e9.png",
+    "static/media/loading.gif": "/pokemon/static/media/loading.08f263c813108449b5ed.gif",
+    "static/media/poison@2x.png": "/pokemon/static/media/poison@2x.af7ea9bb7f9173de6593.png",
+    "static/media/ghost@2x.png": "/pokemon/static/media/ghost@2x.e4c9450702d7baf07f23.png",
+    "static/media/dark@2x.png": "/pokemon/static/media/dark@2x.2adab1193b3939e2babf.png",
+    "static/media/psychic@2x.png": "/pokemon/static/media/psychic@2x.64a6e051f18409139c45.png",
+    "static/media/rock@2x.png": "/pokemon/static/media/rock@2x.b9c8ca3d0a900ef9d23f.png",
+    "static/media/normal@2x.png": "/pokemon/static/media/normal@2x.6984577062ba0c5d386a.png",
+    "static/media/bug@2x.png": "/pokemon/static/media/bug@2x.baeb5551918981eb08ca.png",
+    "static/media/steel@2x.png": "/pokemon/static/media/steel@2x.2242e35e121bfa6873a7.png",
+    "static/media/dragon@2x.png": "/pokemon/static/media/dragon@2x.b9f3323c34104009d870.png",
+    "static/media/flying@2x.png": "/pokemon/static/media/flying@2x.2489c8d509eddc338b4a.png",
+    "index.html": "/pokemon/index.html",
+    "static/media/search.svg": "/pokemon/static/media/search.f9705ffe407455bd10ed.svg",
+    "static/media/arrow-left.svg": "/pokemon/static/media/arrow-left.c73c159158c7a5b96b4d8070676b14c2.svg",
+    "main.bd3d22a2.css.map": "/pokemon/static/css/main.bd3d22a2.css.map",
+    "main.32a49df2.js.map": "/pokemon/static/js/main.32a49df2.js.map"
   },
   "entrypoints": [
-    "static/css/main.50713147.css",
-    "static/js/main.d730bb0d.js"
+    "static/css/main.bd3d22a2.css",
+    "static/js/main.32a49df2.js"
   ]
 }
