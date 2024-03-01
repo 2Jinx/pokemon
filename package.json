@@ -1,6 +1,5 @@
 {
   "name": "pokemon",
-  "homepage": "https://2jinx.github.io/pokemon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
